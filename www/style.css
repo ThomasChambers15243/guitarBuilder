@@ -1,0 +1,269 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    padding:0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/*Global*/
+.container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    padding: 0;
+    margin: 0;    
+}
+
+
+.button_1{
+    height: 38px;
+    background: #e8491d;
+    border: none;
+    padding: 0 20px 0 20px;
+    color: #fff;
+    margin-left: 6px;
+}
+
+.button_2{
+    height: 38px;
+    background: #e8491d;
+    border: none;
+    padding: 0 20px 0 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+/*header*/
+
+header{
+    background: #35424a;
+    color:#fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ffad33 3px solid;
+}
+
+
+header a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header .light, header .selected a{
+    color: #ffad33;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #ccc;
+    font-weight: bold;
+}
+
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+
+#about{
+    background: #35424a;
+    color:#fff;
+    padding-top: 7px;
+    min-height: 70px;
+    border-top: #ffad33 3px solid;
+}
+
+/*showcase Photo*/
+#showcase{
+    min-height: 400px;
+    background:url(Photos/concert_hands.jpg) no-repeat 0 -300px; 
+    text-align: center;
+    color: white;
+}
+
+
+#showcase h1{
+    margin-top: 85px;
+    font-family: impact;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+
+#showcase p{
+    font-size: 20px;
+}
+
+
+
+/*boxes*/
+
+#boxes{
+    margin-top: 20px;
+    
+}
+
+#boxes .box{
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding: 15px;
+    
+}
+
+#boxes .box img{
+    width: 300px;
+}
+
+#box_2, #box_3{
+    height: 200px;
+}
+
+
+
+footer{
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #354241;
+}
+
+/*Account Page*/
+
+.account{
+    /*filter: blur(8px);
+  -webkit-filter: blur(8px);*/
+    background: url(Photos/guitar_white_background%20-%20Copy_1.jpg) no-repeat 0px 40px; 
+   
+}
+
+.login_page{
+    text-align: center;
+    width: auto;
+    color: #black;
+}
+
+.login_page h1{
+    font-size: 40px;
+    text-decoration-color: #ff751a;
+    text-decoration-line: underline;
+}
+
+.login{
+    padding: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.submit_1{
+    height: 45px;
+    background: #ff751a;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    color: #fff;
+    margin: 10px 0 0 10px;
+}
+
+
+
+.login input[type = "email"], input[type = "password"], input[type = "text"]{
+    padding: 7px;
+    height: 25px;
+    width: 250px;
+    margin: 0.7%;
+    border-color: #35424a;
+    color: black;
+}
+
+/* 
+Amber
+ffad33
+
+Orange
+    ff751a
+
+
+*/
+
+/*Plan*/
+.light{
+    color: #ffad33;
+    font-weight: bold;
+}
+
+.build_form{
+ height: auto;
+ top: 150px;
+ overflow: auto;
+ position: absolute;
+ left: 40px;
+    
+}
+
+#build_title h1{
+    position: absolute;
+    left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline #ffad33 solid;
+}
+
+
+.part_select{
+    padding: none;
+    margin: none;
+    text-align: center;
+    font-size: 17px;
+    background-color: #ffad33;
+    width: 150px;
+}
+
+
+.build_form h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.build_form input[type = "submit"]{
+    padding: 7px;
+    height: 35px;
+    width: 150px;
+    margin: 0.7%;
+    text-align: center;
+    background-color: #ffad33;
+    border-color: #35424a;
+    color: black;   
+}
+
+.build_form input[type = "submit"]:hover {
+    background-color: #ffc266;     
+    height: 45;
+}
+
+#build_submit{
+    padding: 20px 0px 20px 0px;
+    
+}
+
+
